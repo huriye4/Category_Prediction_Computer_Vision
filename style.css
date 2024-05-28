@@ -1,0 +1,23 @@
+/* style.css */
+
+/* Ana içerik için stiller */
+.main {
+    background-color: #001F3F; /* Lacivert - Ana sayfa arka plan rengi */
+    color: #FFFFFF !important; /* Beyaz metin - Ana ekrandaki yazılar */
+}
+
+/* Butonlar için stiller */
+.stButton>button {
+    background-color: #40E0D0 !important; /* Turkuaz - Buton arka plan rengi */
+    color: #FFFFFF !important; /* Beyaz buton metni */
+}
+
+/* Fare üzerine gelindiğinde butonlar için stiller */
+.stButton>button:hover {
+    background-color: #006400 !important; /* Altın rengi - Fare üzerine gelindiğinde buton rengi */
+}
+
+/* Tıklanan butonlar için stiller */
+.stButton>button:active {
+    background-color: #FFA500 !important; /* Turuncu - Tıklanan buton rengi */
+}

@@ -28,11 +28,14 @@ Various deep learning techniques were used to develop a model for accurate categ
 Data Preparation
 
 ImageDataGenerator Usage: Data augmentation techniques were applied using Keras's ImageDataGenerator class to increase variation in the dataset. Transformations such as rotation, horizontal/vertical flipping, zooming, and brightness adjustments were performed on the photos. These augmentations improved the model's generalization ability and reduced overfitting.
+
 Model Selection and Architecture Experiments
 Pre-trained Models: Transfer learning was utilized with pre-trained models such as VGG19, VGG16, ResNet, MobileNetV2, EfficientNet, and InceptionV3, which are successful in identifying basic features due to their training on large datasets.
+
 Different Optimization Algorithms: Various optimization algorithms, including Adam and RMSprop, were tested to enhance the model's accuracy and reduce loss.
 
 Model Evaluation and Results
 
 Performance Evaluation: During training, the model's performance was continuously monitored using the train, validation, and test sets. Metrics such as accuracy, loss, validation accuracy, and validation loss were used to evaluate the model's success.
+
 Best Model Selection: The model that showed the best performance was selected after various models and training processes. MobileNetV2 and InceptionV3 achieved the best results, with MobileNetV2 showing the highest accuracy.

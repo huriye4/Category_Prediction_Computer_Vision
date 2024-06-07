@@ -39,7 +39,7 @@ def project_phases():
         -Data Preprocessing
         -Model Training
         -Model Evaluation
-        -Streamlit Interface Development
+        -Streamlit and Flask Interface Deployment
     """)
     st.image('images/Final Data Set.png', caption='Data Set')
     st.image('images/Train-Val Category.png', caption='İmages Numbers')
@@ -67,6 +67,7 @@ def libraries_used():
     - Datetime: Date and time handling module
     - os: Operating system interface module
     """)
+    
 
 def conclusion():
     st.write("""
@@ -74,3 +75,4 @@ def conclusion():
     """)
     st.image('images/PREDİCTONS.png', caption='Predictions')
     st.image('images/confusion matrix.jpeg', caption='Proje Modeli')
+    st.image('images/Flask.jpeg', caption='Flask')

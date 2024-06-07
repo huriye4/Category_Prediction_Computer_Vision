@@ -67,6 +67,7 @@ def libraries_used():
     - Datetime: Date and time handling module
     - os: Operating system interface module
     """)
+    
 
 def conclusion():
     st.write("""
@@ -74,3 +75,4 @@ def conclusion():
     """)
     st.image('images/PREDİCTONS.png', caption='Predictions')
     st.image('images/confusion matrix.jpeg', caption='Proje Modeli')
+    st.image('images/Flask.jpeg', caption='Flask')

@@ -33,7 +33,7 @@ def main():
     st.sidebar.title("IME Brand & Techpro Education")
     # Resmi sidebar'a ekle
     # Resmin yolunu belirtin
-    image_path = "brand_logo.jpeg"
+    image_path = "images/IME BRANDS LOGO.png"
 
     # Orijinal resmi açın
     original_image = Image.open(image_path)

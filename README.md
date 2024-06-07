@@ -22,6 +22,8 @@ Final Data Set 1: Total 15,119 photos (train: 11,330, val: 3,029, deployment_che
 Final Data Set 2: Total 15,510 photos (train: 11,629, val: 3,099, deployment_check: 782)
 Final Data Set 3: Total 18,175 photos (train: 13,992, val: 3,632, deployment_check: 551)
 
+Final Data Set 3 Path:" https://www.kaggle.com/datasets/fatihkgg/ecommerce-product-images-18k/data "
+
 4. Model Training
 Various deep learning techniques were used to develop a model for accurate categorization of product images. The steps and methods followed during the model training process include:
 
@@ -39,3 +41,5 @@ Model Evaluation and Results
 Performance Evaluation: During training, the model's performance was continuously monitored using the train, validation, and test sets. Metrics such as accuracy, loss, validation accuracy, and validation loss were used to evaluate the model's success.
 
 Best Model Selection: The model that showed the best performance was selected after various models and training processes. MobileNetV2 and InceptionV3 achieved the best results, with MobileNetV2 showing the highest accuracy.
+
+

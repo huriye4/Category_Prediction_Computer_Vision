@@ -39,7 +39,7 @@ def project_phases():
         -Data Preprocessing
         -Model Training
         -Model Evaluation
-        -Streamlit and Flask Interface Deployment
+        -Streamlit  Interface Deployment
     """)
     st.image('images/Final Data Set.png', caption='Data Set')
     st.image('images/Train-Val Category.png', caption='İmages Numbers')
@@ -75,4 +75,4 @@ def conclusion():
     """)
     st.image('images/PREDİCTONS.png', caption='Predictions')
     st.image('images/confusion matrix.jpeg', caption='Proje Modeli')
-    st.image('images/Flask.jpeg', caption='Flask')
+   

@@ -30,16 +30,12 @@ def main():
     model = my_load_model(MODEL_PATH)
 
     # Sidebar
-    st.sidebar.title("IME Brand & Techpro Education")
-    # Resmi sidebar'a ekle
-    # Resmin yolunu belirtin
-    image_path = "images/IME BRANDS LOGO.png"
+    st.sidebar.title(" ")
+    st.sidebar.text(" ")
 
-    # Orijinal resmi açın
-    original_image = Image.open(image_path)
+   
 
-    # Resmi gösterin
-    st.sidebar.image(original_image, width=200)
+    
     # Sayfa seçim radyo butonları
     page = st.sidebar.radio("Select Page", ["Home", "Prediction"])
 
@@ -48,15 +44,15 @@ def main():
         st.title("Welcome to the Category Prediction Project")
 
         # Sayfaları dinamik olarak göstermek için bir seçim kutusu ekleyin
-        page_choice = st.sidebar.radio("Select Page", ["Project Introduction", "Project Phases", "Libraries Used", "Conclusion"])
+        page_choice = st.sidebar.radio("Select Page", ["Project Introduction", "Project Phases", "Conclusion"])
 
         # Seçime göre doğru sayfayı gösterin
         if page_choice == "Project Introduction":
             project_introduction()
         elif page_choice == "Project Phases":
             project_phases()
-        elif page_choice == "Libraries Used":
-            libraries_used()
+        #elif page_choice == "Libraries Used":
+            #libraries_used()
         elif page_choice == "Conclusion":
             conclusion()
 

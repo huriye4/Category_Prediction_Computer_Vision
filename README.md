@@ -1,5 +1,7 @@
 Category Prediction with Computer Vision
+
 Introduction
+
 Accurate categorization of products is critical for e-commerce companies to enhance customer satisfaction and optimize sales. Proper categorization helps customers find what they're looking for quickly and easily, improving their shopping experience and boosting sales. Misclassified products can lead to customer dissatisfaction, reduced product visibility, and potential sales loss. Furthermore, incorrect categorization can cause errors in inventory management and marketing strategies, increasing operational costs.
 
 To address these issues, a model that predicts product categories from images has been developed. This model aims to reduce misclassification, increase sales, and shorten the time spent on product categorization. By enabling accurate categorization, customers can find products more quickly, enhancing their shopping experience and satisfaction. Additionally, using accurate data in inventory management and marketing strategies improves operational efficiency and cost savings. This model contributes to the company's overall performance, providing a competitive advantage.
